@@ -31,3 +31,6 @@ text versions of Excel `.xlsx` files
 There are a bunch of issues with this script.
 I wrote it to fulfil a need I had then and there and there are lots of hard-coded horrors.
 Please feel free to contribute to cleaning up the code, submit issues and pull-requests.
+
+## MAJOR UPDATE
+git_diff_xlsx.py now relies on openpyxl rather than xlrd. This change allows the printing of formulae, rather than values, where appropriate in xlsx spreadsheets.

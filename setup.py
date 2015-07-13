@@ -17,7 +17,7 @@ class NoseTestCommand(TestCommand):
 setup(
 
     name="git_diff_xlsx",
-    version="0.1",
+    version="0.2",
     packages=find_packages(exclude=['*test']),
     py_modules=['parse_xml'],
     scripts=[],
@@ -31,7 +31,7 @@ setup(
 
     cmdclass={'test': NoseTestCommand},
 
-    install_requires=['lxml', 'tokenizer', 'excelutil'],
+    install_requires=['openpyxl', 'tokenizer', 'excelutil'],
 
     author="Will Usher",
     author_email="w.usher@ucl.ac.uk",
